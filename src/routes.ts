@@ -7,9 +7,11 @@ import {PostEditComponent} from './app/pages/posts/post-edit/post-edit.component
 import {PostDetailComponent} from './app/pages/posts/post-detail/post-detail.component';
 import {NotFoundComponent} from './app/pages/not-found/not-found.component';
 import {AuthComponent} from './app/pages/auth/auth.component';
+import {ProfileComponent} from './app/pages/profile/profile.component';
 
 export const routes: Routes = [
   {path: '', component: HomeComponent},
+  {path: 'account', component: ProfileComponent},
   {path: 'auth', component: AuthComponent},
   {path: 'posts', component: PostsComponent, children: [
       {path: '', component: PostListComponent},
