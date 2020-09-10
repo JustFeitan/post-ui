@@ -54,7 +54,7 @@ import {ProfileComponent} from './pages/profile/profile.component';
     AuthComponent,
     UserImageComponent,
     LikeComponent,
-    ProfileComponent
+    ProfileComponent,
   ],
   imports: [
     BrowserModule,
